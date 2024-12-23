@@ -15,7 +15,9 @@ class Post(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
     class Meta:
-        ordering = ["-created_on"]
+        ordering = ["created_on"]
+        def __str__(self):
+            return f"Comment {self.body} by {self.author}"
 
 class Comment(models.Model):
     post = models.ForeignKey(
