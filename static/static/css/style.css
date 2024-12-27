@@ -159,3 +159,16 @@ body {
 .approval {
     color: rgb(222, 146, 168);
 }
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

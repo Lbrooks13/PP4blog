@@ -21,17 +21,16 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-12 col-md-6 my-5">
-            <h2>Let's collaborate!</h2>
-            <p>I believe in the power of shared knowledge and collective effort.
-                Whether you have a project in mind, wish to co-author
-                an article, or simply want to brainstorm some ideas,
-                I'm excited to hear from you. Fill out the form
-                and we can get the ball rolling!</p>
+            <h2>Let's drop deuce together!</h2>
+            <p>Have a crappy joke, a stinker of a pun, or some feedback that'll make us flush with excitement?
+                Drop us a message here! Whether you're rating our humor or sharing your poo-tential masterpiece, 
+                we'd love to hear from you. Remember, every comment counts—because we believe in turning your #2 
+                into our #1 priority!</p>
 
             <form method="post">
                 {{ collaborate_form | crispy }}
                 {% csrf_token %}
-                <button class="btn btn-secondary" type="submit">Submit</button>
+                <button class="btn btn-secondary" type="submit">Bombs Away!</button>
             </form>
         </div>
     </div>

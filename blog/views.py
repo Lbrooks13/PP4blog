@@ -52,7 +52,7 @@ def post_detail(request, slug):
             "post": post,
             "comments": comments,
             "comment_count": comment_count,
-            "comment_form": comment_form
+            "comment_form": comment_form,
         },
     )
 
@@ -97,3 +97,12 @@ def comment_delete(request, slug, comment_id):
                              'You can only delete your own comments!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+
+def post_like(request, slug):
+    post = get_object_or_404(Post, slug=slug)
+    if request.user in post.likes.all():
+        post.likes.remove(request.user)  # Unlike
+    else:
+        post.likes.add(request.user)  # Like
+    return redirect('post_detail', slug=slug)   
