@@ -1,4 +1,8 @@
-# 💩 Poo Chronicles
+#  How Big Are Your Poos?
+
+## A foreword
+Dear Assesor, This project has been a bit of a problem child from day one. I originally set out to create a retaurant booking system, which was 99% complete.. right up to 
+the point where my tutor informed me that the structure of my filing system was "too far off the beaten path" and that i'd have to start the whole project again... with 9 days to go before submission... over the Christmas period (literally 20th Decemeber) So what you have here is a mad scramble to have a finished portfolio piece for you to assess. So, it may not be neat, it may not be tidy, it may look like the typings of a mad-man. But please, go easy on me. I've never coded so fast in my life, so if anything, what you're assessing is the work of someone under immense pressure to hit a deadline. If you wish to view my almost complete project I urge you to [click here](https://github.com/Lbrooks13/PP4) and view what this project almost was. Thank you. I'm now going to drink myself into oblivion and hopefully not wake up until 2025 or whenever I get an email back from yourselves, whichever comes first. Kind Regards, Liam
 
 ##  About the App
 How Big Are Your Poos? is a quirky and engaging blog platform where users can share their unique bathroom experiences, comment on others' stories, and express appreciation through likes. Designed for fun and connection, How Big Are Your Poos? aims to create a lighthearted community around a universally relatable topic.
