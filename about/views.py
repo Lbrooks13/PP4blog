@@ -28,7 +28,7 @@ def about_me(request):
 
     return render(
         request,
-        "about.html",
+        "about/about.html",
         {"about": about,
         "collaborate_form": collaborate_form},
     )
